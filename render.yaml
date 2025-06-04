@@ -35,11 +35,11 @@ services:
       - key: WEBHOOK_URL
         value: https://your-n8n-app.onrender.com/
       - key: N8N_ENCRYPTION_KEY
-        value: YOUR_ENCRYPTION_KEY_HERE
+        value: 38FV8A948U2Q09P8AUP98312FHJADENAO84AP93
       - key: GENERIC_TIMEZONE
-        value: America/Sao_Paulo
+        value: Atlantic/Reykjavik
       - key: TZ
-        value: America/Sao_Paulo
+        value: America/Denver
       - key: N8N_LOG_LEVEL
         value: info
       - key: EXECUTIONS_DATA_PRUNE
