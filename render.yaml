@@ -3,7 +3,7 @@ services:
     name: n8n
     env: docker
     region: oregon # optional (defaults to oregon)
-    plan: standard # optional (defaults to starter)
+    plan: starter # optional (defaults to starter)
     branch: main # optional (defaults to master)
     numInstances: 1
     healthCheckPath: /
@@ -57,8 +57,8 @@ services:
     disk:
       name: n8n-disk
       mountPath: /home/node/.n8n
-      sizeGB: 5
+      sizeGB: 2
 
 databases:
   - name: n8n-db
-    plan: basic-1gb
+    plan: free
